@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="0c183b6d-3d0c-4365-a3e2-da6a84c917c6" name="@Amris-MacBook-Pro 2025-09-24 08:17:32" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-09-24T08:17:32.2411510+05:30" queuing="2025-09-24T08:17:32.2411510+05:30" start="2025-09-24T08:17:21.9817420+05:30" finish="2025-09-24T08:17:33.2498040+05:30" />
+  <TestSettings name="default" id="3011ff16-3a1a-4b89-82f0-92efb68e85b4">
+    <Deployment runDeploymentRoot="_Amris-MacBook-Pro_2025-09-24_08_17_32" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="4db28295-5488-4f02-9313-cd41255e6459" testId="f4af2fbd-7a8e-eefd-0662-1da805007803" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.GetPetById_AsAdmin_WhenPetExists_ShouldReturnOkWithPet" computerName="Amris-MacBook-Pro" duration="00:00:00.0058876" startTime="2025-09-24T08:17:32.1761220+05:30" endTime="2025-09-24T08:17:32.1761220+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4db28295-5488-4f02-9313-cd41255e6459" />
+    <UnitTestResult executionId="f2640fc6-2009-4f21-bc87-b8b791a5c55d" testId="984aea6f-6508-3c31-b451-47390cbbc319" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.GetAllPets_WhenCalled_ShouldReturnOkWithPetSummaryList" computerName="Amris-MacBook-Pro" duration="00:00:00.0062949" startTime="2025-09-24T08:17:32.0790220+05:30" endTime="2025-09-24T08:17:32.0790220+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2640fc6-2009-4f21-bc87-b8b791a5c55d" />
+    <UnitTestResult executionId="e1f42ab8-9ebd-4514-bb5b-f984f76af2df" testId="397bf9f2-404d-39f5-8553-02c2669fd602" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.UpdatePet_ValidRequest_ShouldReturnOkWithUpdatedPet" computerName="Amris-MacBook-Pro" duration="00:00:00.0109751" startTime="2025-09-24T08:17:32.1771000+05:30" endTime="2025-09-24T08:17:32.1771000+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e1f42ab8-9ebd-4514-bb5b-f984f76af2df" />
+    <UnitTestResult executionId="5285b31e-2466-4296-a400-0cb1e8a5ad49" testId="a2ae8bc0-9792-59b1-550a-030e272dd109" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.GetPetsByOwner_AsOwner_WhenAccessingOthersPets_ShouldReturnForbid" computerName="Amris-MacBook-Pro" duration="00:00:00.0264646" startTime="2025-09-24T08:17:32.0127840+05:30" endTime="2025-09-24T08:17:32.0127840+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5285b31e-2466-4296-a400-0cb1e8a5ad49" />
+    <UnitTestResult executionId="015da962-33dc-43b5-8237-a0da0f82bad2" testId="dcc5f751-e3b6-b630-721d-e236282eebad" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.AssignPetToOwner_WhenPetIdMismatch_ShouldReturnBadRequest" computerName="Amris-MacBook-Pro" duration="00:00:00.0008811" startTime="2025-09-24T08:17:32.1766130+05:30" endTime="2025-09-24T08:17:32.1766130+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="015da962-33dc-43b5-8237-a0da0f82bad2" />
+    <UnitTestResult executionId="f3856d3b-bea7-4403-b116-359ebe5d793c" testId="0f1bf552-2ff8-1e45-8387-9ebf3ef803e1" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.DeletePet_WhenPetNotFound_ShouldReturnNotFound" computerName="Amris-MacBook-Pro" duration="00:00:00.0079071" startTime="2025-09-24T08:17:31.9924200+05:30" endTime="2025-09-24T08:17:31.9924200+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f3856d3b-bea7-4403-b116-359ebe5d793c" />
+    <UnitTestResult executionId="375ea77d-a893-43fe-9955-d8ca6a9b34ac" testId="7976f4b6-ef5e-284b-da59-f56966c34ff4" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.GetPetById_AsOwner_WhenAccessingOwnPet_ShouldReturnOkWithPet" computerName="Amris-MacBook-Pro" duration="00:00:00.0089654" startTime="2025-09-24T08:17:32.0880520+05:30" endTime="2025-09-24T08:17:32.0880520+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="375ea77d-a893-43fe-9955-d8ca6a9b34ac" />
+    <UnitTestResult executionId="4ec18627-5cb6-4868-bce9-4b36f1cb18d5" testId="fe95aaf6-b4d1-8052-4936-0cab07818faa" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.CreatePet_ValidRequest_ShouldReturnCreatedAtActionWithPet" computerName="Amris-MacBook-Pro" duration="00:00:00.0210878" startTime="2025-09-24T08:17:32.0731630+05:30" endTime="2025-09-24T08:17:32.0731630+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4ec18627-5cb6-4868-bce9-4b36f1cb18d5" />
+    <UnitTestResult executionId="1a0824f4-f306-4a40-b392-4f5f71d66f49" testId="070360b2-376d-d7a4-001f-08f27d691772" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.CreatePet_WhenArgumentException_ShouldReturnBadRequest" computerName="Amris-MacBook-Pro" duration="00:00:00.0020531" startTime="2025-09-24T08:17:32.1746050+05:30" endTime="2025-09-24T08:17:32.1746050+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a0824f4-f306-4a40-b392-4f5f71d66f49" />
+    <UnitTestResult executionId="e365c6a4-f27d-4411-a9d8-f3dae196c21a" testId="80353f49-e8e0-2594-c618-519277f8d134" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.GetPetById_WhenPetNotFound_ShouldReturnNotFound" computerName="Amris-MacBook-Pro" duration="00:00:00.0052601" startTime="2025-09-24T08:17:32.1750980+05:30" endTime="2025-09-24T08:17:32.1750980+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e365c6a4-f27d-4411-a9d8-f3dae196c21a" />
+    <UnitTestResult executionId="2476b250-507d-4bbb-b51a-6d9ccdde580f" testId="0b9a9d62-7ffe-f05e-77d8-8c1f637c4f56" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.GetPetsByOwner_AsOwner_WhenAccessingOwnPets_ShouldReturnOkWithPets" computerName="Amris-MacBook-Pro" duration="00:00:00.0328234" startTime="2025-09-24T08:17:32.0527050+05:30" endTime="2025-09-24T08:17:32.0527050+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2476b250-507d-4bbb-b51a-6d9ccdde580f" />
+    <UnitTestResult executionId="a9bcf30f-9c86-4d3e-b938-e79b5958abb0" testId="2057e6d6-eac1-c924-c166-d8a95c10abbf" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.AssignPetToOwner_WhenArgumentException_ShouldReturnBadRequest" computerName="Amris-MacBook-Pro" duration="00:00:00.0051361" startTime="2025-09-24T08:17:32.0183090+05:30" endTime="2025-09-24T08:17:32.0183090+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a9bcf30f-9c86-4d3e-b938-e79b5958abb0" />
+    <UnitTestResult executionId="5d2b856b-32bc-471b-a913-ee59401b7656" testId="8d619a0b-8fd3-1c2c-1b05-0690c1d27744" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.GetPetsByOwner_AsAdmin_ShouldReturnOkWithPets" computerName="Amris-MacBook-Pro" duration="00:00:00.0074012" startTime="2025-09-24T08:17:32.1740660+05:30" endTime="2025-09-24T08:17:32.1740670+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5d2b856b-32bc-471b-a913-ee59401b7656" />
+    <UnitTestResult executionId="f4176c43-aaaa-4a5d-96bc-be77c40a1e2c" testId="33a6efce-8156-c58f-7d29-62f592077912" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.GetMyPets_WithoutUserIdInToken_ShouldReturnUnauthorized" computerName="Amris-MacBook-Pro" duration="00:00:00.0017039" startTime="2025-09-24T08:17:32.1807460+05:30" endTime="2025-09-24T08:17:32.1807460+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f4176c43-aaaa-4a5d-96bc-be77c40a1e2c" />
+    <UnitTestResult executionId="b3259b77-b4aa-4b4d-a9f1-abcf21d41de3" testId="3b11f201-9794-3efa-c617-0fcb621ba4bc" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.DeletePet_ValidRequest_ShouldReturnNoContent" computerName="Amris-MacBook-Pro" duration="00:00:00.1933824" startTime="2025-09-24T08:17:31.9789530+05:30" endTime="2025-09-24T08:17:31.9789850+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b3259b77-b4aa-4b4d-a9f1-abcf21d41de3" />
+    <UnitTestResult executionId="82962839-bacd-4ba3-8be5-debedb31f7b2" testId="1aed987e-b905-8c8c-b685-4b21bfd27801" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.UpdatePet_WhenPetNotFound_ShouldReturnNotFound" computerName="Amris-MacBook-Pro" duration="00:00:00.0135277" startTime="2025-09-24T08:17:32.1026770+05:30" endTime="2025-09-24T08:17:32.1026780+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="82962839-bacd-4ba3-8be5-debedb31f7b2" />
+    <UnitTestResult executionId="4bd1f9bb-46a4-4ec9-9e1f-4ce2dd0bdcef" testId="609ca479-b3af-928b-41a3-e0fd1e763bde" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.GetMyPets_WithValidUser_ShouldReturnOkWithUsersPets" computerName="Amris-MacBook-Pro" duration="00:00:00.0251420" startTime="2025-09-24T08:17:32.1733920+05:30" endTime="2025-09-24T08:17:32.1733920+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4bd1f9bb-46a4-4ec9-9e1f-4ce2dd0bdcef" />
+    <UnitTestResult executionId="ecbcf9ca-5e5a-4f8b-98ed-4debd4140a37" testId="2a901766-c71c-c810-30c5-3eba38cd5ff3" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.AssignPetToOwner_ValidRequest_ShouldReturnOkWithUpdatedPet" computerName="Amris-MacBook-Pro" duration="00:00:00.0076580" startTime="2025-09-24T08:17:32.1781370+05:30" endTime="2025-09-24T08:17:32.1781370+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ecbcf9ca-5e5a-4f8b-98ed-4debd4140a37" />
+    <UnitTestResult executionId="13cda84b-4577-4ec0-bc9e-55451cfd6799" testId="74bcfaa7-1507-62bd-66ae-d8b7713f10bf" testName="PetCare.Api.Tests.Controllers.PetsControllerTests.GetPetById_AsOwner_WhenAccessingOthersPet_ShouldReturnForbid" computerName="Amris-MacBook-Pro" duration="00:00:00.0025745" startTime="2025-09-24T08:17:32.1756200+05:30" endTime="2025-09-24T08:17:32.1756200+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13cda84b-4577-4ec0-bc9e-55451cfd6799" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.CreatePet_ValidRequest_ShouldReturnCreatedAtActionWithPet" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="fe95aaf6-b4d1-8052-4936-0cab07818faa">
+      <Execution id="4ec18627-5cb6-4868-bce9-4b36f1cb18d5" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="CreatePet_ValidRequest_ShouldReturnCreatedAtActionWithPet" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.GetPetById_WhenPetNotFound_ShouldReturnNotFound" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="80353f49-e8e0-2594-c618-519277f8d134">
+      <Execution id="e365c6a4-f27d-4411-a9d8-f3dae196c21a" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="GetPetById_WhenPetNotFound_ShouldReturnNotFound" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.DeletePet_WhenPetNotFound_ShouldReturnNotFound" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="0f1bf552-2ff8-1e45-8387-9ebf3ef803e1">
+      <Execution id="f3856d3b-bea7-4403-b116-359ebe5d793c" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="DeletePet_WhenPetNotFound_ShouldReturnNotFound" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.GetPetById_AsAdmin_WhenPetExists_ShouldReturnOkWithPet" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="f4af2fbd-7a8e-eefd-0662-1da805007803">
+      <Execution id="4db28295-5488-4f02-9313-cd41255e6459" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="GetPetById_AsAdmin_WhenPetExists_ShouldReturnOkWithPet" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.GetPetsByOwner_AsOwner_WhenAccessingOthersPets_ShouldReturnForbid" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="a2ae8bc0-9792-59b1-550a-030e272dd109">
+      <Execution id="5285b31e-2466-4296-a400-0cb1e8a5ad49" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="GetPetsByOwner_AsOwner_WhenAccessingOthersPets_ShouldReturnForbid" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.CreatePet_WhenArgumentException_ShouldReturnBadRequest" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="070360b2-376d-d7a4-001f-08f27d691772">
+      <Execution id="1a0824f4-f306-4a40-b392-4f5f71d66f49" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="CreatePet_WhenArgumentException_ShouldReturnBadRequest" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.GetMyPets_WithValidUser_ShouldReturnOkWithUsersPets" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="609ca479-b3af-928b-41a3-e0fd1e763bde">
+      <Execution id="4bd1f9bb-46a4-4ec9-9e1f-4ce2dd0bdcef" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="GetMyPets_WithValidUser_ShouldReturnOkWithUsersPets" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.DeletePet_ValidRequest_ShouldReturnNoContent" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="3b11f201-9794-3efa-c617-0fcb621ba4bc">
+      <Execution id="b3259b77-b4aa-4b4d-a9f1-abcf21d41de3" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="DeletePet_ValidRequest_ShouldReturnNoContent" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.AssignPetToOwner_WhenPetIdMismatch_ShouldReturnBadRequest" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="dcc5f751-e3b6-b630-721d-e236282eebad">
+      <Execution id="015da962-33dc-43b5-8237-a0da0f82bad2" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="AssignPetToOwner_WhenPetIdMismatch_ShouldReturnBadRequest" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.AssignPetToOwner_ValidRequest_ShouldReturnOkWithUpdatedPet" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="2a901766-c71c-c810-30c5-3eba38cd5ff3">
+      <Execution id="ecbcf9ca-5e5a-4f8b-98ed-4debd4140a37" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="AssignPetToOwner_ValidRequest_ShouldReturnOkWithUpdatedPet" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.GetAllPets_WhenCalled_ShouldReturnOkWithPetSummaryList" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="984aea6f-6508-3c31-b451-47390cbbc319">
+      <Execution id="f2640fc6-2009-4f21-bc87-b8b791a5c55d" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="GetAllPets_WhenCalled_ShouldReturnOkWithPetSummaryList" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.GetPetsByOwner_AsAdmin_ShouldReturnOkWithPets" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="8d619a0b-8fd3-1c2c-1b05-0690c1d27744">
+      <Execution id="5d2b856b-32bc-471b-a913-ee59401b7656" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="GetPetsByOwner_AsAdmin_ShouldReturnOkWithPets" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.UpdatePet_WhenPetNotFound_ShouldReturnNotFound" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="1aed987e-b905-8c8c-b685-4b21bfd27801">
+      <Execution id="82962839-bacd-4ba3-8be5-debedb31f7b2" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="UpdatePet_WhenPetNotFound_ShouldReturnNotFound" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.GetPetById_AsOwner_WhenAccessingOthersPet_ShouldReturnForbid" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="74bcfaa7-1507-62bd-66ae-d8b7713f10bf">
+      <Execution id="13cda84b-4577-4ec0-bc9e-55451cfd6799" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="GetPetById_AsOwner_WhenAccessingOthersPet_ShouldReturnForbid" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.AssignPetToOwner_WhenArgumentException_ShouldReturnBadRequest" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="2057e6d6-eac1-c924-c166-d8a95c10abbf">
+      <Execution id="a9bcf30f-9c86-4d3e-b938-e79b5958abb0" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="AssignPetToOwner_WhenArgumentException_ShouldReturnBadRequest" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.GetMyPets_WithoutUserIdInToken_ShouldReturnUnauthorized" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="33a6efce-8156-c58f-7d29-62f592077912">
+      <Execution id="f4176c43-aaaa-4a5d-96bc-be77c40a1e2c" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="GetMyPets_WithoutUserIdInToken_ShouldReturnUnauthorized" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.UpdatePet_ValidRequest_ShouldReturnOkWithUpdatedPet" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="397bf9f2-404d-39f5-8553-02c2669fd602">
+      <Execution id="e1f42ab8-9ebd-4514-bb5b-f984f76af2df" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="UpdatePet_ValidRequest_ShouldReturnOkWithUpdatedPet" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.GetPetById_AsOwner_WhenAccessingOwnPet_ShouldReturnOkWithPet" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="7976f4b6-ef5e-284b-da59-f56966c34ff4">
+      <Execution id="375ea77d-a893-43fe-9955-d8ca6a9b34ac" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="GetPetById_AsOwner_WhenAccessingOwnPet_ShouldReturnOkWithPet" />
+    </UnitTest>
+    <UnitTest name="PetCare.Api.Tests.Controllers.PetsControllerTests.GetPetsByOwner_AsOwner_WhenAccessingOwnPets_ShouldReturnOkWithPets" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.api.tests/bin/debug/net9.0/petcare.api.tests.dll" id="0b9a9d62-7ffe-f05e-77d8-8c1f637c4f56">
+      <Execution id="2476b250-507d-4bbb-b51a-6d9ccdde580f" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Api.Tests/bin/Debug/net9.0/PetCare.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Api.Tests.Controllers.PetsControllerTests" name="GetPetsByOwner_AsOwner_WhenAccessingOwnPets_ShouldReturnOkWithPets" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="f4af2fbd-7a8e-eefd-0662-1da805007803" executionId="4db28295-5488-4f02-9313-cd41255e6459" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="984aea6f-6508-3c31-b451-47390cbbc319" executionId="f2640fc6-2009-4f21-bc87-b8b791a5c55d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="397bf9f2-404d-39f5-8553-02c2669fd602" executionId="e1f42ab8-9ebd-4514-bb5b-f984f76af2df" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2ae8bc0-9792-59b1-550a-030e272dd109" executionId="5285b31e-2466-4296-a400-0cb1e8a5ad49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dcc5f751-e3b6-b630-721d-e236282eebad" executionId="015da962-33dc-43b5-8237-a0da0f82bad2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0f1bf552-2ff8-1e45-8387-9ebf3ef803e1" executionId="f3856d3b-bea7-4403-b116-359ebe5d793c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7976f4b6-ef5e-284b-da59-f56966c34ff4" executionId="375ea77d-a893-43fe-9955-d8ca6a9b34ac" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe95aaf6-b4d1-8052-4936-0cab07818faa" executionId="4ec18627-5cb6-4868-bce9-4b36f1cb18d5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="070360b2-376d-d7a4-001f-08f27d691772" executionId="1a0824f4-f306-4a40-b392-4f5f71d66f49" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="80353f49-e8e0-2594-c618-519277f8d134" executionId="e365c6a4-f27d-4411-a9d8-f3dae196c21a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0b9a9d62-7ffe-f05e-77d8-8c1f637c4f56" executionId="2476b250-507d-4bbb-b51a-6d9ccdde580f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2057e6d6-eac1-c924-c166-d8a95c10abbf" executionId="a9bcf30f-9c86-4d3e-b938-e79b5958abb0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8d619a0b-8fd3-1c2c-1b05-0690c1d27744" executionId="5d2b856b-32bc-471b-a913-ee59401b7656" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="33a6efce-8156-c58f-7d29-62f592077912" executionId="f4176c43-aaaa-4a5d-96bc-be77c40a1e2c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3b11f201-9794-3efa-c617-0fcb621ba4bc" executionId="b3259b77-b4aa-4b4d-a9f1-abcf21d41de3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1aed987e-b905-8c8c-b685-4b21bfd27801" executionId="82962839-bacd-4ba3-8be5-debedb31f7b2" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="609ca479-b3af-928b-41a3-e0fd1e763bde" executionId="4bd1f9bb-46a4-4ec9-9e1f-4ce2dd0bdcef" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a901766-c71c-c810-30c5-3eba38cd5ff3" executionId="ecbcf9ca-5e5a-4f8b-98ed-4debd4140a37" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74bcfaa7-1507-62bd-66ae-d8b7713f10bf" executionId="13cda84b-4577-4ec0-bc9e-55451cfd6799" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="19" executed="19" passed="19" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.8)
+[xUnit.net 00:00:00.32]   Discovering: PetCare.Api.Tests
+[xUnit.net 00:00:00.41]   Discovered:  PetCare.Api.Tests
+[xUnit.net 00:00:00.41]   Starting:    PetCare.Api.Tests
+     Warning:
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.
+     A paid commercial license supports the development and continued increasing support of
+     Fluent Assertions users under both commercial and community licenses. Help us
+     keep Fluent Assertions at the forefront of unit testing.
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/
+[xUnit.net 00:00:00.90]   Finished:    PetCare.Api.Tests
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="Amris-MacBook-Pro" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="Amris-MacBook-Pro/coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

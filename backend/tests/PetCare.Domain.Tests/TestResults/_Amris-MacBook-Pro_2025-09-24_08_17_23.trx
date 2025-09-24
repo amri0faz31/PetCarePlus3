@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="4cb8b7cc-d6f6-44dc-861a-0b31799b173c" name="@Amris-MacBook-Pro 2025-09-24 08:17:23" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-09-24T08:17:23.2083880+05:30" queuing="2025-09-24T08:17:23.2083890+05:30" start="2025-09-24T08:17:19.9708160+05:30" finish="2025-09-24T08:17:24.0722870+05:30" />
+  <TestSettings name="default" id="b103957a-b176-4b4a-838b-1a8df2572277">
+    <Deployment runDeploymentRoot="_Amris-MacBook-Pro_2025-09-24_08_17_23" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="8b40db3d-18dd-4ffa-b758-e44a0db302a5" testId="8496cca8-b74e-112a-f205-ca4e3162e69e" testName="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Count_Should_Be_Nine" computerName="Amris-MacBook-Pro" duration="00:00:00.0001153" startTime="2025-09-24T08:17:23.1423030+05:30" endTime="2025-09-24T08:17:23.1423030+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8b40db3d-18dd-4ffa-b758-e44a0db302a5" />
+    <UnitTestResult executionId="ba181249-e0b0-4281-b6ba-68c59999783c" testId="3044ee83-9a86-c6e3-0fe9-29c8927914ab" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Cat)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000071" startTime="2025-09-24T08:17:22.7643380+05:30" endTime="2025-09-24T08:17:22.7643390+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba181249-e0b0-4281-b6ba-68c59999783c" />
+    <UnitTestResult executionId="602b435b-00ed-4627-b263-6c7fb557c872" testId="631efd90-54cb-872b-32c8-b2add900d74c" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Bird)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000100" startTime="2025-09-24T08:17:22.7623590+05:30" endTime="2025-09-24T08:17:22.7623590+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="602b435b-00ed-4627-b263-6c7fb557c872" />
+    <UnitTestResult executionId="f2393cbd-3f96-4a18-ae25-998a0affdd6d" testId="1bb0de77-bef5-79b8-f2e9-b6b224bd220f" testName="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Fish, expectedValue: 4)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000043" startTime="2025-09-24T08:17:23.1277210+05:30" endTime="2025-09-24T08:17:23.1277210+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f2393cbd-3f96-4a18-ae25-998a0affdd6d" />
+    <UnitTestResult executionId="e8b76c91-fcba-4419-b026-1970fcb17bae" testId="cb8f1a76-6d9c-e8b1-320e-daf16cd053ff" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Dog)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000066" startTime="2025-09-24T08:17:22.7635500+05:30" endTime="2025-09-24T08:17:22.7635500+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e8b76c91-fcba-4419-b026-1970fcb17bae" />
+    <UnitTestResult executionId="1a3552a1-e56f-4b5a-86a7-d942e5f8face" testId="ad90b3b0-e5e0-7e9c-a554-d039feec33e7" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Guinea_Pig)" computerName="Amris-MacBook-Pro" duration="00:00:00.0141115" startTime="2025-09-24T08:17:22.7391690+05:30" endTime="2025-09-24T08:17:22.7392010+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a3552a1-e56f-4b5a-86a7-d942e5f8face" />
+    <UnitTestResult executionId="138c0050-d848-4efc-ab04-78883d076208" testId="42b2a243-0b01-8106-7ec9-125800c763ee" testName="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Expected_Values" computerName="Amris-MacBook-Pro" duration="00:00:00.0074515" startTime="2025-09-24T08:17:23.1392830+05:30" endTime="2025-09-24T08:17:23.1392830+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="138c0050-d848-4efc-ab04-78883d076208" />
+    <UnitTestResult executionId="7a5bff8a-7862-4cef-9778-06b393a777f8" testId="704245cd-4c15-8db7-8070-6c31aa3d4359" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Creation_Should_Set_Properties_Correctly" computerName="Amris-MacBook-Pro" duration="00:00:00.0059144" startTime="2025-09-24T08:17:23.1426190+05:30" endTime="2025-09-24T08:17:23.1426190+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7a5bff8a-7862-4cef-9778-06b393a777f8" />
+    <UnitTestResult executionId="30e5e4ca-e737-480a-a057-a4dc067e7d56" testId="96c5ebcb-ad7b-5639-b108-6467a316e2d0" testName="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Rabbit, expectedValue: 5)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000113" startTime="2025-09-24T08:17:23.1268070+05:30" endTime="2025-09-24T08:17:23.1268070+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="30e5e4ca-e737-480a-a057-a4dc067e7d56" />
+    <UnitTestResult executionId="6666e2a2-a13d-4fc5-869b-af43683d526e" testId="54bbd513-4e11-8af6-eb41-818f4c598205" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_AgeInYears_Should_Return_Null_When_DateOfBirth_Is_Null" computerName="Amris-MacBook-Pro" duration="00:00:00.0012505" startTime="2025-09-24T08:17:23.1376790+05:30" endTime="2025-09-24T08:17:23.1376790+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6666e2a2-a13d-4fc5-869b-af43683d526e" />
+    <UnitTestResult executionId="8024bcf5-5b0b-4574-b8ec-71a7639fd7a1" testId="341286ce-e453-9b46-f13f-d3f9e8c8cd7f" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Update_UpdatedAt_When_Modified" computerName="Amris-MacBook-Pro" duration="00:00:00.0009684" startTime="2025-09-24T08:17:23.1431060+05:30" endTime="2025-09-24T08:17:23.1431060+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8024bcf5-5b0b-4574-b8ec-71a7639fd7a1" />
+    <UnitTestResult executionId="83dbf7c9-2656-4062-84c3-cc928b17d07f" testId="b14495d9-592a-3329-dfd2-b34fba012539" testName="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Reptile, expectedValue: 8)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000030" startTime="2025-09-24T08:17:23.1348010+05:30" endTime="2025-09-24T08:17:23.1348010+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="83dbf7c9-2656-4062-84c3-cc928b17d07f" />
+    <UnitTestResult executionId="4c3d3964-d1c9-4c4e-8f2c-0fd89713e702" testId="fe2aa514-8f2f-b8c2-812f-cdd4683f3ca1" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_CreatedAt_Should_Be_Set" computerName="Amris-MacBook-Pro" duration="00:00:00.0007911" startTime="2025-09-24T08:17:23.2027500+05:30" endTime="2025-09-24T08:17:23.2027500+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4c3d3964-d1c9-4c4e-8f2c-0fd89713e702" />
+    <UnitTestResult executionId="d641aa5b-cf68-421d-a552-8723813daf88" testId="a3172066-9753-a522-6510-193eb7b89261" testName="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Dog, expectedValue: 1)" computerName="Amris-MacBook-Pro" duration="00:00:00.0003101" startTime="2025-09-24T08:17:23.1250540+05:30" endTime="2025-09-24T08:17:23.1250540+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d641aa5b-cf68-421d-a552-8723813daf88" />
+    <UnitTestResult executionId="da8c1fb0-d0a0-46ef-9672-ace194a90c1c" testId="cac3f9e3-1fda-5cfe-39f1-03ce4b43aefe" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Default_IsActive_To_True" computerName="Amris-MacBook-Pro" duration="00:00:00.0001647" startTime="2025-09-24T08:17:23.2047250+05:30" endTime="2025-09-24T08:17:23.2047250+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="da8c1fb0-d0a0-46ef-9672-ace194a90c1c" />
+    <UnitTestResult executionId="18a6cfe6-ed1a-4f93-b302-e3ad3b56b1d4" testId="2dc74bf5-3a86-2f6a-a339-b30cef4a2125" testName="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Bird, expectedValue: 3)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000031" startTime="2025-09-24T08:17:23.1356970+05:30" endTime="2025-09-24T08:17:23.1356970+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="18a6cfe6-ed1a-4f93-b302-e3ad3b56b1d4" />
+    <UnitTestResult executionId="44ef7ce1-25eb-4d46-a54b-30902586323a" testId="2dec46cb-fe52-5253-d7ed-489cfcd8be59" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_UpdatedAt_Should_Be_Nullable" computerName="Amris-MacBook-Pro" duration="00:00:00.0005077" startTime="2025-09-24T08:17:23.2089170+05:30" endTime="2025-09-24T08:17:23.2089170+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="44ef7ce1-25eb-4d46-a54b-30902586323a" />
+    <UnitTestResult executionId="c29c69f2-f727-4dc2-bd46-2ac061629be5" testId="07c4b617-f5d4-a72a-9598-e1c536ef02dc" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Fish)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000061" startTime="2025-09-24T08:17:23.1076560+05:30" endTime="2025-09-24T08:17:23.1076560+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c29c69f2-f727-4dc2-bd46-2ac061629be5" />
+    <UnitTestResult executionId="4d927f97-900d-4ce2-8921-3d1e9ac53b75" testId="95ea498c-1e24-a11b-eafd-54201fa06b1b" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_AgeInYears_Should_Calculate_Correctly" computerName="Amris-MacBook-Pro" duration="00:00:00.0007599" startTime="2025-09-24T08:17:23.1891870+05:30" endTime="2025-09-24T08:17:23.1891880+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4d927f97-900d-4ce2-8921-3d1e9ac53b75" />
+    <UnitTestResult executionId="9c0bee41-76be-42f0-b367-6042b68c44e5" testId="cc62b720-b2d3-c9e6-2cc7-0742270a5227" testName="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Hamster, expectedValue: 6)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000083" startTime="2025-09-24T08:17:23.1257780+05:30" endTime="2025-09-24T08:17:23.1257780+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9c0bee41-76be-42f0-b367-6042b68c44e5" />
+    <UnitTestResult executionId="f59683ac-bb04-45c1-8ad8-47f993bdc529" testId="dc1faaaf-9023-7d6b-f067-0ff13bd53db3" testName="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Guinea_Pig, expectedValue: 7)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000033" startTime="2025-09-24T08:17:23.1369890+05:30" endTime="2025-09-24T08:17:23.1369890+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f59683ac-bb04-45c1-8ad8-47f993bdc529" />
+    <UnitTestResult executionId="c741c65e-7dde-49a3-9f5d-251316c2ce53" testId="7c80d279-6008-13f0-8f77-34d650908452" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Hamster)" computerName="Amris-MacBook-Pro" duration="00:00:00.0002925" startTime="2025-09-24T08:17:22.7610150+05:30" endTime="2025-09-24T08:17:22.7610150+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c741c65e-7dde-49a3-9f5d-251316c2ce53" />
+    <UnitTestResult executionId="a088a554-d8ca-4ab2-bedb-36cbdc6d1231" testId="55bc8e15-bc2b-0d10-f78b-b04da1c4866c" testName="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Be_Parseable_From_String" computerName="Amris-MacBook-Pro" duration="00:00:00.0020892" startTime="2025-09-24T08:17:23.1413130+05:30" endTime="2025-09-24T08:17:23.1413130+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a088a554-d8ca-4ab2-bedb-36cbdc6d1231" />
+    <UnitTestResult executionId="fe1c8de7-08e6-4523-95b5-c74b12fd972c" testId="c633038f-fcf3-8362-0dd9-90f7fef77ec1" testName="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Be_Convertible_To_String" computerName="Amris-MacBook-Pro" duration="00:00:00.0001636" startTime="2025-09-24T08:17:23.1418100+05:30" endTime="2025-09-24T08:17:23.1418100+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fe1c8de7-08e6-4523-95b5-c74b12fd972c" />
+    <UnitTestResult executionId="b26a9ecc-9af3-48e2-b808-10ef9f7db784" testId="3ad2c435-53f0-7cc9-a9a2-0314042bcb01" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Reptile)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000062" startTime="2025-09-24T08:17:22.7712280+05:30" endTime="2025-09-24T08:17:22.7712280+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b26a9ecc-9af3-48e2-b808-10ef9f7db784" />
+    <UnitTestResult executionId="0f2e0925-6e01-48de-ac63-e7fef125feaa" testId="89ccea51-3cb8-5b2a-8c10-f58cf6ba6b92" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Weight_Should_Allow_Decimal_Values" computerName="Amris-MacBook-Pro" duration="00:00:00.0258802" startTime="2025-09-24T08:17:23.1227740+05:30" endTime="2025-09-24T08:17:23.1227740+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0f2e0925-6e01-48de-ac63-e7fef125feaa" />
+    <UnitTestResult executionId="661e1a57-3618-45f6-b0c6-f12a4b2e7ceb" testId="d9fdbb95-de7e-a481-2244-7c59bf1010b7" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Allow_Empty_Optional_Fields(value: null)" computerName="Amris-MacBook-Pro" duration="00:00:00.0064842" startTime="2025-09-24T08:17:23.1382600+05:30" endTime="2025-09-24T08:17:23.1382600+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="661e1a57-3618-45f6-b0c6-f12a4b2e7ceb" />
+    <UnitTestResult executionId="5cb48eff-31c7-4cf1-909e-95e5fffd9170" testId="8ff977b7-8d00-e63b-a985-3ace4bbbe9a2" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Allow_Empty_Optional_Fields(value: &quot;&quot;)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000132" startTime="2025-09-24T08:17:23.1403250+05:30" endTime="2025-09-24T08:17:23.1403250+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5cb48eff-31c7-4cf1-909e-95e5fffd9170" />
+    <UnitTestResult executionId="60de3c0b-a401-408a-b17a-7b13199ff8a4" testId="92346565-3b04-d73d-3ec3-43254b3bd1e4" testName="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Cat, expectedValue: 2)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000036" startTime="2025-09-24T08:17:23.1263030+05:30" endTime="2025-09-24T08:17:23.1263030+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="60de3c0b-a401-408a-b17a-7b13199ff8a4" />
+    <UnitTestResult executionId="db5cb31e-73d7-405b-9a17-9dbedc149d1b" testId="3347803f-f0be-6404-17bd-42088f5e9436" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Rabbit)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000068" startTime="2025-09-24T08:17:22.7629840+05:30" endTime="2025-09-24T08:17:22.7629840+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="db5cb31e-73d7-405b-9a17-9dbedc149d1b" />
+    <UnitTestResult executionId="cb1655d3-59d5-47a9-af79-a5dfdc91635e" testId="bba33c23-9321-d535-9399-f9077de25c29" testName="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Other, expectedValue: 99)" computerName="Amris-MacBook-Pro" duration="00:00:00.0454096" startTime="2025-09-24T08:17:23.1218110+05:30" endTime="2025-09-24T08:17:23.1218110+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cb1655d3-59d5-47a9-af79-a5dfdc91635e" />
+    <UnitTestResult executionId="b7beb634-7785-4483-b2c0-a7f87f1ca2b3" testId="d1609478-6d0d-c93c-2861-527d690360e5" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Allow_Null_Weight" computerName="Amris-MacBook-Pro" duration="00:00:00.0004021" startTime="2025-09-24T08:17:23.1435870+05:30" endTime="2025-09-24T08:17:23.1435870+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b7beb634-7785-4483-b2c0-a7f87f1ca2b3" />
+    <UnitTestResult executionId="23745d52-2dbc-485d-893c-19c8a9ac8514" testId="f58c92b7-ff5f-6e25-472f-54f064fde8f8" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Other)" computerName="Amris-MacBook-Pro" duration="00:00:00.0000069" startTime="2025-09-24T08:17:22.7719400+05:30" endTime="2025-09-24T08:17:22.7719400+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="23745d52-2dbc-485d-893c-19c8a9ac8514" />
+    <UnitTestResult executionId="f0b9ad00-cd52-40d3-8ba1-45fddcc4a793" testId="00c43788-8812-671e-3442-05e7e7ad1ba0" testName="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Allow_Empty_Optional_Fields(value: &quot; &quot;)" computerName="Amris-MacBook-Pro" duration="00:00:00.0002240" startTime="2025-09-24T08:17:23.1398320+05:30" endTime="2025-09-24T08:17:23.1398320+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0b9ad00-cd52-40d3-8ba1-45fddcc4a793" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Bird, expectedValue: 3)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="2dc74bf5-3a86-2f6a-a339-b30cef4a2125">
+      <Execution id="18a6cfe6-ed1a-4f93-b302-e3ad3b56b1d4" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.SpeciesTests" name="Species_Should_Have_Correct_Numeric_Values" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Hamster)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="7c80d279-6008-13f0-8f77-34d650908452">
+      <Execution id="c741c65e-7dde-49a3-9f5d-251316c2ce53" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Accept_All_Valid_Species" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Reptile)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="3ad2c435-53f0-7cc9-a9a2-0314042bcb01">
+      <Execution id="b26a9ecc-9af3-48e2-b808-10ef9f7db784" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Accept_All_Valid_Species" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Allow_Empty_Optional_Fields(value: &quot;&quot;)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="8ff977b7-8d00-e63b-a985-3ace4bbbe9a2">
+      <Execution id="5cb48eff-31c7-4cf1-909e-95e5fffd9170" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Allow_Empty_Optional_Fields" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Reptile, expectedValue: 8)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="b14495d9-592a-3329-dfd2-b34fba012539">
+      <Execution id="83dbf7c9-2656-4062-84c3-cc928b17d07f" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.SpeciesTests" name="Species_Should_Have_Correct_Numeric_Values" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Dog, expectedValue: 1)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="a3172066-9753-a522-6510-193eb7b89261">
+      <Execution id="d641aa5b-cf68-421d-a552-8723813daf88" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.SpeciesTests" name="Species_Should_Have_Correct_Numeric_Values" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Expected_Values" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="42b2a243-0b01-8106-7ec9-125800c763ee">
+      <Execution id="138c0050-d848-4efc-ab04-78883d076208" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.SpeciesTests" name="Species_Should_Have_Expected_Values" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Rabbit, expectedValue: 5)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="96c5ebcb-ad7b-5639-b108-6467a316e2d0">
+      <Execution id="30e5e4ca-e737-480a-a057-a4dc067e7d56" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.SpeciesTests" name="Species_Should_Have_Correct_Numeric_Values" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_UpdatedAt_Should_Be_Nullable" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="2dec46cb-fe52-5253-d7ed-489cfcd8be59">
+      <Execution id="44ef7ce1-25eb-4d46-a54b-30902586323a" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_UpdatedAt_Should_Be_Nullable" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Guinea_Pig)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="ad90b3b0-e5e0-7e9c-a554-d039feec33e7">
+      <Execution id="1a3552a1-e56f-4b5a-86a7-d942e5f8face" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Accept_All_Valid_Species" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Guinea_Pig, expectedValue: 7)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="dc1faaaf-9023-7d6b-f067-0ff13bd53db3">
+      <Execution id="f59683ac-bb04-45c1-8ad8-47f993bdc529" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.SpeciesTests" name="Species_Should_Have_Correct_Numeric_Values" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Cat, expectedValue: 2)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="92346565-3b04-d73d-3ec3-43254b3bd1e4">
+      <Execution id="60de3c0b-a401-408a-b17a-7b13199ff8a4" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.SpeciesTests" name="Species_Should_Have_Correct_Numeric_Values" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Creation_Should_Set_Properties_Correctly" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="704245cd-4c15-8db7-8070-6c31aa3d4359">
+      <Execution id="7a5bff8a-7862-4cef-9778-06b393a777f8" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Creation_Should_Set_Properties_Correctly" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Rabbit)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="3347803f-f0be-6404-17bd-42088f5e9436">
+      <Execution id="db5cb31e-73d7-405b-9a17-9dbedc149d1b" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Accept_All_Valid_Species" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_CreatedAt_Should_Be_Set" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="fe2aa514-8f2f-b8c2-812f-cdd4683f3ca1">
+      <Execution id="4c3d3964-d1c9-4c4e-8f2c-0fd89713e702" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_CreatedAt_Should_Be_Set" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_AgeInYears_Should_Return_Null_When_DateOfBirth_Is_Null" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="54bbd513-4e11-8af6-eb41-818f4c598205">
+      <Execution id="6666e2a2-a13d-4fc5-869b-af43683d526e" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_AgeInYears_Should_Return_Null_When_DateOfBirth_Is_Null" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Update_UpdatedAt_When_Modified" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="341286ce-e453-9b46-f13f-d3f9e8c8cd7f">
+      <Execution id="8024bcf5-5b0b-4574-b8ec-71a7639fd7a1" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Update_UpdatedAt_When_Modified" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Be_Parseable_From_String" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="55bc8e15-bc2b-0d10-f78b-b04da1c4866c">
+      <Execution id="a088a554-d8ca-4ab2-bedb-36cbdc6d1231" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.SpeciesTests" name="Species_Should_Be_Parseable_From_String" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Hamster, expectedValue: 6)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="cc62b720-b2d3-c9e6-2cc7-0742270a5227">
+      <Execution id="9c0bee41-76be-42f0-b367-6042b68c44e5" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.SpeciesTests" name="Species_Should_Have_Correct_Numeric_Values" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_AgeInYears_Should_Calculate_Correctly" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="95ea498c-1e24-a11b-eafd-54201fa06b1b">
+      <Execution id="4d927f97-900d-4ce2-8921-3d1e9ac53b75" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_AgeInYears_Should_Calculate_Correctly" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Cat)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="3044ee83-9a86-c6e3-0fe9-29c8927914ab">
+      <Execution id="ba181249-e0b0-4281-b6ba-68c59999783c" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Accept_All_Valid_Species" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Be_Convertible_To_String" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="c633038f-fcf3-8362-0dd9-90f7fef77ec1">
+      <Execution id="fe1c8de7-08e6-4523-95b5-c74b12fd972c" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.SpeciesTests" name="Species_Should_Be_Convertible_To_String" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Allow_Empty_Optional_Fields(value: null)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="d9fdbb95-de7e-a481-2244-7c59bf1010b7">
+      <Execution id="661e1a57-3618-45f6-b0c6-f12a4b2e7ceb" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Allow_Empty_Optional_Fields" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Fish, expectedValue: 4)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="1bb0de77-bef5-79b8-f2e9-b6b224bd220f">
+      <Execution id="f2393cbd-3f96-4a18-ae25-998a0affdd6d" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.SpeciesTests" name="Species_Should_Have_Correct_Numeric_Values" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Fish)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="07c4b617-f5d4-a72a-9598-e1c536ef02dc">
+      <Execution id="c29c69f2-f727-4dc2-bd46-2ac061629be5" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Accept_All_Valid_Species" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Weight_Should_Allow_Decimal_Values" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="89ccea51-3cb8-5b2a-8c10-f58cf6ba6b92">
+      <Execution id="0f2e0925-6e01-48de-ac63-e7fef125feaa" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Weight_Should_Allow_Decimal_Values" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Should_Have_Correct_Numeric_Values(species: Other, expectedValue: 99)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="bba33c23-9321-d535-9399-f9077de25c29">
+      <Execution id="cb1655d3-59d5-47a9-af79-a5dfdc91635e" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.SpeciesTests" name="Species_Should_Have_Correct_Numeric_Values" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Default_IsActive_To_True" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="cac3f9e3-1fda-5cfe-39f1-03ce4b43aefe">
+      <Execution id="da8c1fb0-d0a0-46ef-9672-ace194a90c1c" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Default_IsActive_To_True" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Allow_Null_Weight" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="d1609478-6d0d-c93c-2861-527d690360e5">
+      <Execution id="b7beb634-7785-4483-b2c0-a7f87f1ca2b3" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Allow_Null_Weight" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.SpeciesTests.Species_Count_Should_Be_Nine" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="8496cca8-b74e-112a-f205-ca4e3162e69e">
+      <Execution id="8b40db3d-18dd-4ffa-b758-e44a0db302a5" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.SpeciesTests" name="Species_Count_Should_Be_Nine" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Other)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="f58c92b7-ff5f-6e25-472f-54f064fde8f8">
+      <Execution id="23745d52-2dbc-485d-893c-19c8a9ac8514" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Accept_All_Valid_Species" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Allow_Empty_Optional_Fields(value: &quot; &quot;)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="00c43788-8812-671e-3442-05e7e7ad1ba0">
+      <Execution id="f0b9ad00-cd52-40d3-8ba1-45fddcc4a793" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Allow_Empty_Optional_Fields" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Dog)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="cb8f1a76-6d9c-e8b1-320e-daf16cd053ff">
+      <Execution id="e8b76c91-fcba-4419-b026-1970fcb17bae" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Accept_All_Valid_Species" />
+    </UnitTest>
+    <UnitTest name="PetCare.Domain.Tests.Pets.PetTests.Pet_Should_Accept_All_Valid_Species(species: Bird)" storage="/users/amrifazlul/downloads/petcareplus2/backend/tests/petcare.domain.tests/bin/debug/net9.0/petcare.domain.tests.dll" id="631efd90-54cb-872b-32c8-b2add900d74c">
+      <Execution id="602b435b-00ed-4627-b263-6c7fb557c872" />
+      <TestMethod codeBase="/Users/amrifazlul/Downloads/PetCarePlus2/backend/tests/PetCare.Domain.Tests/bin/Debug/net9.0/PetCare.Domain.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="PetCare.Domain.Tests.Pets.PetTests" name="Pet_Should_Accept_All_Valid_Species" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="8496cca8-b74e-112a-f205-ca4e3162e69e" executionId="8b40db3d-18dd-4ffa-b758-e44a0db302a5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3044ee83-9a86-c6e3-0fe9-29c8927914ab" executionId="ba181249-e0b0-4281-b6ba-68c59999783c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="631efd90-54cb-872b-32c8-b2add900d74c" executionId="602b435b-00ed-4627-b263-6c7fb557c872" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1bb0de77-bef5-79b8-f2e9-b6b224bd220f" executionId="f2393cbd-3f96-4a18-ae25-998a0affdd6d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cb8f1a76-6d9c-e8b1-320e-daf16cd053ff" executionId="e8b76c91-fcba-4419-b026-1970fcb17bae" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ad90b3b0-e5e0-7e9c-a554-d039feec33e7" executionId="1a3552a1-e56f-4b5a-86a7-d942e5f8face" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="42b2a243-0b01-8106-7ec9-125800c763ee" executionId="138c0050-d848-4efc-ab04-78883d076208" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="704245cd-4c15-8db7-8070-6c31aa3d4359" executionId="7a5bff8a-7862-4cef-9778-06b393a777f8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="96c5ebcb-ad7b-5639-b108-6467a316e2d0" executionId="30e5e4ca-e737-480a-a057-a4dc067e7d56" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="54bbd513-4e11-8af6-eb41-818f4c598205" executionId="6666e2a2-a13d-4fc5-869b-af43683d526e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="341286ce-e453-9b46-f13f-d3f9e8c8cd7f" executionId="8024bcf5-5b0b-4574-b8ec-71a7639fd7a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b14495d9-592a-3329-dfd2-b34fba012539" executionId="83dbf7c9-2656-4062-84c3-cc928b17d07f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fe2aa514-8f2f-b8c2-812f-cdd4683f3ca1" executionId="4c3d3964-d1c9-4c4e-8f2c-0fd89713e702" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a3172066-9753-a522-6510-193eb7b89261" executionId="d641aa5b-cf68-421d-a552-8723813daf88" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cac3f9e3-1fda-5cfe-39f1-03ce4b43aefe" executionId="da8c1fb0-d0a0-46ef-9672-ace194a90c1c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2dc74bf5-3a86-2f6a-a339-b30cef4a2125" executionId="18a6cfe6-ed1a-4f93-b302-e3ad3b56b1d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2dec46cb-fe52-5253-d7ed-489cfcd8be59" executionId="44ef7ce1-25eb-4d46-a54b-30902586323a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="07c4b617-f5d4-a72a-9598-e1c536ef02dc" executionId="c29c69f2-f727-4dc2-bd46-2ac061629be5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="95ea498c-1e24-a11b-eafd-54201fa06b1b" executionId="4d927f97-900d-4ce2-8921-3d1e9ac53b75" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc62b720-b2d3-c9e6-2cc7-0742270a5227" executionId="9c0bee41-76be-42f0-b367-6042b68c44e5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dc1faaaf-9023-7d6b-f067-0ff13bd53db3" executionId="f59683ac-bb04-45c1-8ad8-47f993bdc529" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7c80d279-6008-13f0-8f77-34d650908452" executionId="c741c65e-7dde-49a3-9f5d-251316c2ce53" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="55bc8e15-bc2b-0d10-f78b-b04da1c4866c" executionId="a088a554-d8ca-4ab2-bedb-36cbdc6d1231" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c633038f-fcf3-8362-0dd9-90f7fef77ec1" executionId="fe1c8de7-08e6-4523-95b5-c74b12fd972c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3ad2c435-53f0-7cc9-a9a2-0314042bcb01" executionId="b26a9ecc-9af3-48e2-b808-10ef9f7db784" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="89ccea51-3cb8-5b2a-8c10-f58cf6ba6b92" executionId="0f2e0925-6e01-48de-ac63-e7fef125feaa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d9fdbb95-de7e-a481-2244-7c59bf1010b7" executionId="661e1a57-3618-45f6-b0c6-f12a4b2e7ceb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ff977b7-8d00-e63b-a985-3ace4bbbe9a2" executionId="5cb48eff-31c7-4cf1-909e-95e5fffd9170" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="92346565-3b04-d73d-3ec3-43254b3bd1e4" executionId="60de3c0b-a401-408a-b17a-7b13199ff8a4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3347803f-f0be-6404-17bd-42088f5e9436" executionId="db5cb31e-73d7-405b-9a17-9dbedc149d1b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bba33c23-9321-d535-9399-f9077de25c29" executionId="cb1655d3-59d5-47a9-af79-a5dfdc91635e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d1609478-6d0d-c93c-2861-527d690360e5" executionId="b7beb634-7785-4483-b2c0-a7f87f1ca2b3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f58c92b7-ff5f-6e25-472f-54f064fde8f8" executionId="23745d52-2dbc-485d-893c-19c8a9ac8514" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="00c43788-8812-671e-3442-05e7e7ad1ba0" executionId="f0b9ad00-cd52-40d3-8ba1-45fddcc4a793" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="34" executed="34" passed="34" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.8)
+[xUnit.net 00:00:00.17]   Discovering: PetCare.Domain.Tests
+[xUnit.net 00:00:00.27]   Discovered:  PetCare.Domain.Tests
+[xUnit.net 00:00:00.28]   Starting:    PetCare.Domain.Tests
+     Warning:
+     The component "Fluent Assertions" is governed by the rules defined in the Xceed License Agreement and
+     the Xceed Fluent Assertions Community License. You may use Fluent Assertions free of charge for
+     non-commercial use only. An active subscription is required to use Fluent Assertions for commercial use.
+     Please contact Xceed Sales mailto:sales@xceed.com to acquire a subscription at a very low cost.
+     A paid commercial license supports the development and continued increasing support of
+     Fluent Assertions users under both commercial and community licenses. Help us
+     keep Fluent Assertions at the forefront of unit testing.
+     For more information, visit https://xceed.com/products/unit-testing/fluent-assertions/
+[xUnit.net 00:00:00.88]   Finished:    PetCare.Domain.Tests
+</StdOut>
+    </Output>
+    <CollectorDataEntries>
+      <Collector agentName="Amris-MacBook-Pro" uri="datacollector://microsoft/CoverletCodeCoverage/1.0" collectorDisplayName="XPlat code coverage">
+        <UriAttachments>
+          <UriAttachment>
+            <A href="Amris-MacBook-Pro/coverage.cobertura.xml"></A>
+          </UriAttachment>
+        </UriAttachments>
+      </Collector>
+    </CollectorDataEntries>
+  </ResultSummary>
+</TestRun>

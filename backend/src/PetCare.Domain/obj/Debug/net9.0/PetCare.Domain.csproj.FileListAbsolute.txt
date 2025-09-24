@@ -1,0 +1,12 @@
+/Users/amrifazlul/Downloads/PetCarePlus2/backend/src/PetCare.Domain/bin/Debug/net9.0/PetCare.Domain.deps.json
+/Users/amrifazlul/Downloads/PetCarePlus2/backend/src/PetCare.Domain/bin/Debug/net9.0/PetCare.Domain.dll
+/Users/amrifazlul/Downloads/PetCarePlus2/backend/src/PetCare.Domain/bin/Debug/net9.0/PetCare.Domain.pdb
+/Users/amrifazlul/Downloads/PetCarePlus2/backend/src/PetCare.Domain/obj/Debug/net9.0/PetCare.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/amrifazlul/Downloads/PetCarePlus2/backend/src/PetCare.Domain/obj/Debug/net9.0/PetCare.Domain.AssemblyInfoInputs.cache
+/Users/amrifazlul/Downloads/PetCarePlus2/backend/src/PetCare.Domain/obj/Debug/net9.0/PetCare.Domain.AssemblyInfo.cs
+/Users/amrifazlul/Downloads/PetCarePlus2/backend/src/PetCare.Domain/obj/Debug/net9.0/PetCare.Domain.csproj.CoreCompileInputs.cache
+/Users/amrifazlul/Downloads/PetCarePlus2/backend/src/PetCare.Domain/obj/Debug/net9.0/PetCare.Domain.sourcelink.json
+/Users/amrifazlul/Downloads/PetCarePlus2/backend/src/PetCare.Domain/obj/Debug/net9.0/PetCare.Domain.dll
+/Users/amrifazlul/Downloads/PetCarePlus2/backend/src/PetCare.Domain/obj/Debug/net9.0/refint/PetCare.Domain.dll
+/Users/amrifazlul/Downloads/PetCarePlus2/backend/src/PetCare.Domain/obj/Debug/net9.0/PetCare.Domain.pdb
+/Users/amrifazlul/Downloads/PetCarePlus2/backend/src/PetCare.Domain/obj/Debug/net9.0/ref/PetCare.Domain.dll
