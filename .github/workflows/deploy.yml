@@ -5,20 +5,31 @@ on:
     workflows: ["Build and Push Container"]
     types: [completed]
     branches: [prod]
-  workflow_dispatch:
+  
     #hello
 
 jobs:
   deploy:
     if: ${{ github.event.workflow_run.conclusion == 'success' }}
-    
     runs-on: ubuntu-latest
     environment: production
 
     steps:
-      - name: Deploy to Azure Web App
+      - name: Create Deployment Annotation
+        run: |  
+          echo "Deployed image: ghcr.io/amri0faz31/petcareplus3/app:latest"
+          echo "Deployment time: $(date)"
+          echo "Git commit: ${{ github.sha }}"
+
+      - name: Deploy to Azure
         uses: azure/webapps-deploy@v3
         with:
           app-name: ${{ secrets.AZURE_WEBAPP_NAME }}
           images: ghcr.io/amri0faz31/petcareplus3/app:latest
           publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
+
+
+
+
+
+  
