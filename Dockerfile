@@ -13,7 +13,7 @@ COPY backend/src/PetCare.Api/PetCare.Api.csproj ./backend/src/PetCare.Api/
 COPY backend/src/PetCare.Application/PetCare.Application.csproj ./backend/src/PetCare.Application/
 COPY backend/src/PetCare.Domain/PetCare.Domain.csproj ./backend/src/PetCare.Domain/
 COPY backend/src/PetCare.Infrastructure/PetCare.Infrastructure.csproj ./backend/src/PetCare.Infrastructure/
-COPY backend/tests/*.csproj ./backend/tests/
+
 
 # Restore dependencies
 RUN dotnet restore ./backend/PetCare.sln
