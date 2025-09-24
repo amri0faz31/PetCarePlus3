@@ -5,6 +5,7 @@ on:
     workflows: ["Build and Push Container"]
     types: [completed]
     branches: [prod]
+  workflow_dispatch:
     #hello
 
 jobs:
