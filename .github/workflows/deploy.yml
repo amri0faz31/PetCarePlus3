@@ -4,16 +4,14 @@ on:
   workflow_run:
     workflows: ["Build and Push Container"]
     types: [completed]
-    branches: [prod]  # ← THIS IS THE KEY FIX
+    branches: [prod]
 
 jobs:
   deploy:
-    if: ${{ github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.head_branch == 'prod' }}
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
     
     runs-on: ubuntu-latest
-    environment:
-      name: production
-      url: https://${{ secrets.AZURE_WEBAPP_NAME }}.azurewebsites.net
+    environment: production
 
     steps:
       - name: Deploy to Azure Web App
