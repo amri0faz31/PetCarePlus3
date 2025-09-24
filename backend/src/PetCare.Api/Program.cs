@@ -130,6 +130,11 @@ builder.Services.AddValidatorsFromAssemblyContaining<
 
 builder.Services.AddScoped<PetCare.Application.Auth.Login.LoginQuery>();
 
+var port = Environment.GetEnvironmentVariable("PORT")
+           ?? Environment.GetEnvironmentVariable("WEBSITES_PORT")
+           ?? "80"; // default to 80 if nothing is set
+builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+
 var app = builder.Build();
 
 // ---------- CORS ----------

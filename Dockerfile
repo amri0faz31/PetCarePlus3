@@ -40,7 +40,7 @@ RUN npm ci
 COPY frontend/ ./
 
 # Create production environment file
-RUN echo "VITE_API_BASE=/api" > .env.production
+RUN echo "VITE_API_BASE_URL=/" > .env.production
 
 # Build frontend
 RUN npm run build
@@ -57,9 +57,8 @@ COPY --from=backend-build /app/publish .
 # Copy frontend build output into ASP.NET wwwroot
 COPY --from=frontend-build /src/frontend/dist ./wwwroot
 
-# Expose port 80 for web traffic
+# Expose port for Azure
 EXPOSE 80
-ENV ASPNETCORE_URLS=http://+:80
 
-# Start backend (which also serves frontend from wwwroot)
+# Start backend (serves frontend from wwwroot)
 ENTRYPOINT ["dotnet", "PetCare.Api.dll"]
