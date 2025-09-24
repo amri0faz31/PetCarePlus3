@@ -39,12 +39,11 @@ RUN npm ci
 # Copy frontend source
 COPY frontend/ ./
 
-# Create production environment file
-#RUN echo "VITE_API_BASE_URL=/" > .env.production
-# Copy frontend source (including existing .env.production)
+# Set production environment variables for React build
+RUN echo "VITE_API_BASE_URL=/api" > .env.production
+RUN echo "VITE_FEATURE_AUTH_ROUTING=true" >> .env.production
 
-
-# Build frontend
+# Build frontend for production
 RUN npm run build
 
 # -------------------------------
@@ -59,7 +58,7 @@ COPY --from=backend-build /app/publish .
 # Copy frontend build output into ASP.NET wwwroot
 COPY --from=frontend-build /src/frontend/dist ./wwwroot
 
-# Expose port for Azure
+# Expose port for Azure App Service
 EXPOSE 80
 
 # Start backend (serves frontend from wwwroot)
