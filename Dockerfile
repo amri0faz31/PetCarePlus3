@@ -4,18 +4,25 @@
 FROM mcr.microsoft.com/dotnet/sdk:9.0 AS backend-build
 WORKDIR /src
 
-# Copy solution + csproj
-COPY PetCarePlus3.sln .
-COPY backend/PetCarePlus3.Api/PetCarePlus3.Api.csproj ./backend/PetCarePlus3.Api/
+# Copy solution & props
+COPY backend/PetCare.sln ./backend/
+COPY backend/Directory.Build.props ./backend/
+
+# Copy backend project files for restore caching
+COPY backend/src/PetCare.Api/PetCare.Api.csproj ./backend/src/PetCare.Api/
+COPY backend/src/PetCare.Application/PetCare.Application.csproj ./backend/src/PetCare.Application/
+COPY backend/src/PetCare.Domain/PetCare.Domain.csproj ./backend/src/PetCare.Domain/
+COPY backend/src/PetCare.Infrastructure/PetCare.Infrastructure.csproj ./backend/src/PetCare.Infrastructure/
+COPY backend/tests/*.csproj ./backend/tests/
 
 # Restore dependencies
-RUN dotnet restore PetCarePlus3.sln
+RUN dotnet restore ./backend/PetCare.sln
 
-# Copy backend source
-COPY backend/PetCarePlus3.Api ./backend/PetCarePlus3.Api
+# Copy backend source code
+COPY backend ./backend
 
 # Build & publish backend
-RUN dotnet publish backend/PetCarePlus3.Api -c Release -o /app/publish
+RUN dotnet publish ./backend/src/PetCare.Api -c Release -o /app/publish
 
 # -------------------------------
 # Stage 2: Build frontend
@@ -32,9 +39,11 @@ RUN npm ci
 # Copy frontend source
 COPY frontend/ ./
 
-# Build frontend (make sure VITE_API_BASE points to /api)
+# Create production environment file
 RUN echo "VITE_API_BASE=/api" > .env.production
-RUN npx vite build --mode production
+
+# Build frontend
+RUN npm run build
 
 # -------------------------------
 # Stage 3: Final image
@@ -42,15 +51,15 @@ RUN npx vite build --mode production
 FROM mcr.microsoft.com/dotnet/aspnet:9.0 AS final
 WORKDIR /app
 
-# Copy backend
+# Copy backend published output
 COPY --from=backend-build /app/publish .
 
-# Copy frontend build output into wwwroot
+# Copy frontend build output into ASP.NET wwwroot
 COPY --from=frontend-build /src/frontend/dist ./wwwroot
 
-# Expose port 80
+# Expose port 80 for web traffic
 EXPOSE 80
 ENV ASPNETCORE_URLS=http://+:80
 
-# Start backend
-ENTRYPOINT ["dotnet", "PetCarePlus3.Api.dll"]
+# Start backend (which also serves frontend from wwwroot)
+ENTRYPOINT ["dotnet", "PetCare.Api.dll"]
