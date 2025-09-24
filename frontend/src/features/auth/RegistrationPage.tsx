@@ -16,7 +16,7 @@ async function registerOwner(body: {
     console.error("VITE_API_BASE_URL is not set");
     return { ok: false, code: "failed" };
   }
-  const res = await fetch(`${BASE}/api/auth/register-owner`, {
+  const res = await fetch(`${BASE}/auth/register-owner`, {
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify(body),
