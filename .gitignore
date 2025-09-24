@@ -1,0 +1,63 @@
+# OS / Editors
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.orig
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Git / Logs
+*.log
+logs/
+*.stackdump
+
+# Node / Vite (frontend)
+node_modules/
+dist/
+*.tsbuildinfo
+package-lock.json
+package-lock 2.json
+
+# Vite/React env files
+.env
+.env.*.local
+
+# .NET build artifacts
+bin/
+obj/
+artifacts/
+*.user
+*.rsuser
+*.suo
+*.userprefs
+*.cache
+*.dgspec.json
+*.assets.json
+CoverletSourceRootsMapping*
+.msCoverageSourceRootsMapping*
+
+# VS caches
+.vs/
+
+# ASP.NET config
+appsettings.Development.json
+appsettings.*.local.json
+
+# EF Core
+# Migrations are tracked (no ignore for Migrations/)
+
+# Tooling / Packages
+*.nupkg
+.bruno/*
+!.bruno/collections/**
+
+# MySQL dumps & misc
+*.sql
+*.sql.gz
+dump*.sql
+
+# Docker
+docker-compose.override.yml
