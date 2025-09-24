@@ -143,19 +143,23 @@ else
     app.UseCors(policy => policy.WithOrigins(origins).AllowAnyHeader().AllowAnyMethod().AllowCredentials());
 }
 
-// ---------- One-time role seeding ----------
+// ---------- One-time role seeding + migrations ----------
 using (var scope = app.Services.CreateScope())
 {
-    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-    // await RoleSeeder.SeedAsync(roleManager);
+    var db = scope.ServiceProvider.GetRequiredService<PetCareDbContext>();
 
-    // ---------- Run migrations automatically in Test/CI environments ----------
-    if (app.Environment.IsEnvironment("Test") )
+    // Run migrations automatically in Development and Production
+    if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
     {
-        var db = scope.ServiceProvider.GetRequiredService<PetCareDbContext>();
         db.Database.Migrate();
     }
+
+    // Seed roles, admin user, etc. if needed
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    // await RoleSeeder.SeedAsync(roleManager);
 }
+
+
 
 // ---------- Pipeline ----------
 if (app.Environment.IsDevelopment())
