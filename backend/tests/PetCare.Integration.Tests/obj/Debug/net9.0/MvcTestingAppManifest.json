@@ -1,6 +1,0 @@
-{
-  "PetCare.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/amrifazlul\/Downloads\/PetCarePlus2\/backend\/src\/PetCare.Api",
-  "PetCare.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/amrifazlul\/Downloads\/PetCarePlus2\/backend\/src\/PetCare.Application",
-  "PetCare.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/amrifazlul\/Downloads\/PetCarePlus2\/backend\/src\/PetCare.Domain",
-  "PetCare.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "\/Users\/amrifazlul\/Downloads\/PetCarePlus2\/backend\/src\/PetCare.Infrastructure"
-}
