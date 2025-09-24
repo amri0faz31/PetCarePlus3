@@ -1,30 +1,21 @@
-name: Build and Push Container
+name: Build, Push and Deploy
 
 on:
   push:
     branches: [prod]
-    paths:
-      - '**'
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
-
-      - name: Log in to GitHub Container Registry
+      - uses: actions/checkout@v4
+      - name: Log in to GHCR
         uses: docker/login-action@v3
         with:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Build and push Docker image
+      - name: Build and Push
         uses: docker/build-push-action@v5
         with:
           context: .
@@ -32,3 +23,15 @@ jobs:
           tags: |
             ghcr.io/amri0faz31/petcareplus3/app:latest
             ghcr.io/amri0faz31/petcareplus3/app:${{ github.sha }}
+
+  deploy:
+    needs: build-and-push   # wait for build to finish
+    runs-on: ubuntu-latest
+    environment: production
+    steps:
+      - name: Deploy to Azure
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: ${{ secrets.AZURE_WEBAPP_NAME }}
+          images: ghcr.io/amri0faz31/petcareplus3/app:latest
+          publish-profile: ${{ secrets.AZURE_PUBLISH_PROFILE }}
