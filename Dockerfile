@@ -40,7 +40,9 @@ RUN npm ci
 COPY frontend/ ./
 
 # Create production environment file
-RUN echo "VITE_API_BASE_URL=/" > .env.production
+#RUN echo "VITE_API_BASE_URL=/" > .env.production
+# Copy frontend source (including existing .env.production)
+COPY frontend/ ./
 
 # Build frontend
 RUN npm run build
