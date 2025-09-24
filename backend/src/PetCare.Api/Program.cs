@@ -176,6 +176,11 @@ if (app.Environment.IsDevelopment())
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
+app.MapFallbackToFile("index.html");
+
+
 app.MapControllers();
 app.MapGet("/health", () => Results.Ok(new { status = "ok" }));
 
