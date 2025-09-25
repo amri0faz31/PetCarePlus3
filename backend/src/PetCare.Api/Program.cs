@@ -130,9 +130,9 @@ builder.Services.AddValidatorsFromAssemblyContaining<
 
 builder.Services.AddScoped<PetCare.Application.Auth.Login.LoginQuery>();
 
-var port = Environment.GetEnvironmentVariable("PORT") 
-           ?? "8080"; // default Azure convention
-builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+//var port = Environment.GetEnvironmentVariable("PORT") 
+//           ?? "8080"; // default Azure convention
+//builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
 
 var app = builder.Build();
 
