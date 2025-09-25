@@ -24,7 +24,7 @@ async function loginApi(body: {
 }): Promise<LoginOk | LoginErr> {
   if (!BASE) return { ok: false, code: "failed" };
   try {
-    const res = await fetch(`${BASE}/api/auth/login`, {
+    const res = await fetch(`${BASE}/auth/login`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(body),

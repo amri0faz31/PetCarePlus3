@@ -130,6 +130,10 @@ builder.Services.AddValidatorsFromAssemblyContaining<
 
 builder.Services.AddScoped<PetCare.Application.Auth.Login.LoginQuery>();
 
+//var port = Environment.GetEnvironmentVariable("PORT") 
+//           ?? "8080"; // default Azure convention
+//builder.WebHost.UseUrls($"http://0.0.0.0:{port}");
+
 var app = builder.Build();
 
 // ---------- CORS ----------
@@ -143,19 +147,23 @@ else
     app.UseCors(policy => policy.WithOrigins(origins).AllowAnyHeader().AllowAnyMethod().AllowCredentials());
 }
 
-// ---------- One-time role seeding ----------
+// ---------- One-time role seeding + migrations ----------
 using (var scope = app.Services.CreateScope())
 {
-    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
-    // await RoleSeeder.SeedAsync(roleManager);
+    var db = scope.ServiceProvider.GetRequiredService<PetCareDbContext>();
 
-    // ---------- Run migrations automatically in Test/CI environments ----------
-    if (app.Environment.IsEnvironment("Test") )
+    // Run migrations automatically in Development and Production
+    if (app.Environment.IsDevelopment() || app.Environment.IsProduction())
     {
-        var db = scope.ServiceProvider.GetRequiredService<PetCareDbContext>();
         db.Database.Migrate();
     }
+
+    // Seed roles, admin user, etc. if needed
+    var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+    // await RoleSeeder.SeedAsync(roleManager);
 }
+
+
 
 // ---------- Pipeline ----------
 if (app.Environment.IsDevelopment())
@@ -167,6 +175,11 @@ if (app.Environment.IsDevelopment())
 app.UseAuthentication();
 app.UseAuthorization();
 
+app.UseDefaultFiles();
+app.UseStaticFiles();
+app.MapFallbackToFile("index.html");
+
+
 app.MapControllers();
 app.MapGet("/health", () => Results.Ok(new { status = "ok" }));
 
@@ -174,3 +187,4 @@ app.Run();
 
 // Make Program class accessible for integration tests
 public partial class Program { }
+//hellooo
